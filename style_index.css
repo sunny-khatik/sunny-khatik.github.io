@@ -1,0 +1,77 @@
+body {
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title_tag{
+  text-align:center;
+  font-kerning: normal;
+  font-style: italic;
+  color: blue;
+  text-shadow: 1px 1px 1px purple,
+             2px 2px 1px red;
+  text-decoration:underline;
+}
+
+#text_under{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align:center;
+  font-kerning: normal;
+  text-align-last: center;
+  color: green;
+}
+
+td{
+  padding: 10px;
+}
+
+#text_book{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align:center;
+  font-kerning: normal;
+  text-align-last: center;
+  color: red;
+}
+
+/* a:link{color: red} */
+#set{
+  height: 200px;
+  width: 200px;
+}
+#set1{
+  height: 200px;
+  width: 170px;
+}
+#set2{
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+.zoom1{
+  transition: transform .1.5s; /* Animation */
+  margin: 0 auto;
+}
+.zoom1:hover {
+  transform: scale(1.2);
+}
+.zoom {
+  transition: transform .1.5s; /* Animation */
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
