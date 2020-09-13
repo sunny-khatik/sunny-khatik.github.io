@@ -9,53 +9,58 @@
         <link href="css/elements.css" rel="stylesheet">
         <script src="js/js_signup.js"></script>
         <script src="js/js_passcheck.js"></script>
+
     </head>
 
     <body id="body" style="overflow:hidden;">
-        <div><img id="set1" src="images/user_img.webp" alt="image is not avialable"></div>
-        <table align="center" class="set2" border="1px solid red">
-            <tr>
-                <td>
-                    <h1 align="center">User Login</h1>
-                </td>
-            </tr>
-            <form action="home.html">
+        <div>
+            <div><img id="set1" src="images/user_img.webp" alt="image is not avialable"></div>
+            <table align="center" class="set2" border="1px solid red">
                 <tr>
-                    <td id="email">Phone, Email or UserName</td>
+                    <td>
+                        <h1 align="center">User Login</h1>
+                    </td>
                 </tr>
-                <tr>
-                    <td><input type="email" placeholder="enter email id" size="50" required></td>
-                </tr>
-                <tr>
-                    <td><label for="">Password</label></td>
-                </tr>
-                <tr>
-                    <td><input type="password" id="pass" name="pass" placeholder="password must have 8 charachter"
-                            size="50" required></td>
-                </tr>
-                <tr>
-                    <td><input id="sub" type="submit" value="Log In"></td>
-                </tr>
-            </form>
-        </table>
-        <div class="set_22">
-            <button id='bt' onclick="div_pass()" >forgot password?</button>
-            <button id='bt' onclick="div_show()">Sign Up</button>
-        </div>
-        <div id="abc">
-        <div id="popupContact">
-        <form   id="form" method="post" name="form">
-        <img id="close" src="images/download.jpg" onclick ="div_hide()">
-        <h2>Sign Up</h2>
-        <hr>
-        <input id="name" name="name" placeholder="Name" type="text" required>
-        <input id="email" name="email" placeholder="Email" type="email" required>
-        <input id="psw_1" type="password" placeholder="Enter Password" name="psw" required>
-        <input id="psw_2" type="password" placeholder="Repeat Password" name="psw-repeat" size="50" required>
-        <br><br>
-        <a onclick="check_empty()"  id="submit">Sign Up</a>
-        </form>
-        </div>
+                <form action="home.html">
+                    <tr>
+                        <td id="email">Phone, Email or UserName</td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" placeholder="enter email id" size="50" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="pass" name="pass" placeholder="password must have 8 charachter"
+                                size="50" required></td>
+                    </tr>
+                    <tr>
+                        <td><input id="sub" type="submit" value="Log In"></td>
+                    </tr>
+                </form>
+            </table>
+            <div class="set_22">
+                <button id='bt' onclick="div_pass()">forgot password?</button>
+                <button id='bt' onclick="div_show()">Sign Up</button>
+            </div>
+            <div id="abc">
+                <div id="popupContact">
+                    <form id="form" method="post" name="form">
+                        <img id="close" src="images/download.jpg" onclick="div_hide()">
+                        <h2>Sign Up</h2>
+                        <hr>
+                        <input id="name" name="name" placeholder="Name" type="text" required>
+                        <input id="email" name="email" placeholder="Email" type="email" required>
+                        <input id="psw_1" type="password" placeholder="Enter Password" name="psw" required>
+                        <input id="psw_2" type="password" placeholder="Repeat Password" name="psw-repeat" size="50"
+                            required>
+                        <br><br>
+                        <a onclick="check_empty()" id="submit">Sign Up</a>
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
+
 </html>
